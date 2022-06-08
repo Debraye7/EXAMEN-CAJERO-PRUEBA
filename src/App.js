@@ -167,7 +167,7 @@ function App() {
           <span className='span-cajero'>Listo</span>
         }
         {depositoInvalido === true &&
-          <span className='span-cajero'>Error de monto</span>
+          <span className='span-cajero'>Monto erróneo</span>
         }
         </div>
       </div>
