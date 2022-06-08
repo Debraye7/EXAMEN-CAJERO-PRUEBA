@@ -1,0 +1,131 @@
+html {
+  font-size: 15px;
+}
+
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 7.5px;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-tabla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tabla {
+  display: flex;
+  width: 90%;
+  height: 13rem;
+  border-bottom: none;
+  border-radius: .5rem;
+}
+
+.tabla-lado {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabla-titulo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #06f;
+  color: #fff;
+  width: 100%;
+}
+
+.tabla-dato {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.total {
+  border-top: .15rem solid #06f;
+}
+
+.container-cajero {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cajero-retiro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+h2 {
+  color: #06f;
+  font-size: 2rem;
+  letter-spacing: .2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 7.5rem;
+  width: 100%;
+}
+
+input {
+  width: 60%;
+  border: none;
+  background-color: #ddd;
+  border-bottom: solid .15rem #06f;
+  border-radius: .25rem;
+  outline: none;
+}
+
+input:focus {
+  background-color: #ccc;
+}
+
+button {
+  background-color: #06f;
+  border: .15rem solid #06f;
+  border-radius: .25rem;
+  padding: .25rem 1.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #06f;
+}
+
+.efectivo{
+  text-align: center;
+  color: #f00;
+  margin-top: 1rem;
+}
+
+.span-cajero {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #06f;
+}
